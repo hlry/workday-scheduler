@@ -1,32 +1,36 @@
+//use uquery and moment.js to update id currentDay to display day of week, Month, and calendar day (e.g., 'Thursday, September 5th') based on current day
 
 
-var dt = moment(myDate.date, "YYYY-MM-DD HH:mm:ss")
-dt.format('dddd');
-console.log(moment(mydate).format('dddd'));
+$('#currentDay').text(moment().format('dddd, MMMM Do'));
+
+// var dt = moment(myDate.date, "YYYY-MM-DD HH:mm:ss")
+// dt.format('dddd');
+// console.log(moment(mydate).format('dddd'));
 
 
-$(document).ready(function () {
-    $('#calendar').eCalendar({
 
-        weekDays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+// $(document).ready(function () {
+//     $('#calendar').eCalendar({
 
-        months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+//         weekDays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
 
-        textArrows: { previous: '<', next: '>' },
+//         months: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 
-        eventTitle: 'Events',
+//         textArrows: { previous: '<', next: '>' },
 
-        url: '',
+//         eventTitle: 'Events',
 
-        firstDayOfWeek: 0,
+//         url: '',
 
-        events: [
+//         firstDayOfWeek: 0,
 
-            { title: 'Event 1', description: 'Description 1', < a href = "https://www.jqueryscript.net/time-clock/" > date</a > time: new Date(2014, 7, 15, 17)},
+//         events: [
 
-        { title: 'Event 2', description: 'Description 2', datetime: new Date(2014, 7, 14, 16) },
+//             { title: 'Event 1', description: 'Description 1', < a href = "https://www.jqueryscript.net/time-clock/" > date</a > time: new Date(2014, 7, 15, 17)},
 
-        { title: 'Event 3', description: 'jQueryScript.Net', datetime: new Date(2014, 7, 10, 16) }
-    
-    ]});
-    });
+//         { title: 'Event 2', description: 'Description 2', datetime: new Date(2014, 7, 14, 16) },
+
+//         { title: 'Event 3', description: 'jQueryScript.Net', datetime: new Date(2014, 7, 10, 16) }
+
+//     ]});
+//     });

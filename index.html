@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./Assets/css/jquery.e-calendar.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -23,13 +22,77 @@
   </header>
   <div class="container">
     <!-- Timeblocks go here -->
-    <div id="calendar"></div>
+    <!-- 8 rows with 3 columns each (12 wide total, 10 for middle, 1 each end)  -->
+    <div class="row">
+      <div class="col hour">
+        9AM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <!-- consider military time for moment.js to locate the hour -->
+    <div class="row">
+      <div class="col hour">
+        10AM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        11AM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        12PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        1PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        2PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        3PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i>
+      </button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        4PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
+    <div class="row">
+      <div class="col hour">
+        5PM
+      </div>
+      <input class="col-10">
+      <button class="col saveBtn"><i class="fas fa-save"></i></button>
+    </div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/jquery.e-calendar.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./Assets/js/script.js"></script>
 </body>
 
 </html>
