@@ -3,6 +3,8 @@
 
 $('#currentDay').text(moment().format('dddd, MMMM Do'));
 
+$('#currentDay')
+
 // var dt = moment(myDate.date, "YYYY-MM-DD HH:mm:ss")
 // dt.format('dddd');
 // console.log(moment(mydate).format('dddd'));
