@@ -16,6 +16,6 @@ https://hlry.github.io/workday-scheduler/
 Made with ❤️ by hlry
 
 ## Screenshot
-![Work Day Scheduler Screenshot](https://raw.github.com/hlry/code-quiz/main/assets/images/CodeQuizScreenshot.png?raw=true "Preview")
+![Work Day Scheduler Screenshot](https://raw.github.com/hlry/workday-scheduler/main/Assets/images/workdayschedulerscreenshot.png?raw=true "Preview")
 
 ### ©️2021 HLRY
